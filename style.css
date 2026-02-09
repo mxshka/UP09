@@ -1,0 +1,136 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+}
+.header_b {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+.header_b p {
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 15px 10px 15px;
+}
+p.orange {
+    border-radius: 5px;
+    background-color: #E67E22;
+    color: white;
+}
+main {
+    background-color: #FDF2E9;
+    display: flex;
+    justify-content: center;
+}
+main div {
+    width: 566px;
+    margin-top: 60px;
+}
+div.main_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+main div h1 {
+    font-family: rubik;
+    font-weight: 700;
+    font-size: 40px;
+}
+main div p {
+    font-family: rubik;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #555555;
+    height: 50px;
+}
+div.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+div.orange.button {
+    background-color: #E67E22;
+    color: white;
+    padding: 15px 5px 15px 5px;
+    width: 300px;
+}
+div.button {
+    width: 120px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 9px;
+    background-color: white;
+    font-family: rubik;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+}
+.delivery_block {
+ display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+  justify-content: center;
+}
+.photos_block {
+    display: flex;
+    position: absolute;
+    margin-bottom: 140px;
+}
+.customer {
+  height: 2.8rem;
+  width: 2.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid #fdf2e9;
+}
+.customer:hover {
+    height: 3.3rem;
+    width: 3.3rem;
+    transition: 150ms;
+}
+.customer:last-child {
+    margin: 0;
+}
+.delivered-text {
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+    position: absolute;
+    margin-left: 100px;
+    margin-bottom: 70px;
+}
+.delivered-text span {
+  color: #cf711f;
+  font-weight: 700;
+}
+section.sources {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+section.sources h2 {
+    text-transform: uppercase;
+    font-family: rubik;
+    font-weight: 600;
+    font-size: 16px;
+    color: #555555;
+    letter-spacing: 0.75px;
+}
+.source_img {
+    width: 200px;
+    height: 50px;
+    padding: 0px 25px;
+    opacity: 70%;
+    margin-top: 25px;
+}
+div.how_head {
+    
+}
+
