@@ -1,0 +1,37 @@
+section.how_it_works {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+div.how_head {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+}
+div.how_head h3 {
+    text-transform: uppercase;
+    color: #CF711F;
+    font-family: rubik;
+opacity: 80%;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.75px;
+}
+div.how_head p {
+    font-family: rubik;
+opacity: 80%;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 30px;
+    letter-spacing: -0.5px;
+}
+
+
+
+div.steps {
+    display: flex;
+    flex-direction: column;
+}
+

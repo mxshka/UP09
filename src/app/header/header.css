@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+}
+.header_b {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+.header_b p {
+    font-family: rubik;
+opacity: 80%;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 15px 10px 15px;
+}
+p.orange {
+    border-radius: 5px;
+    background-color: #E67E22;
+    color: white;
+}
