@@ -12,11 +12,11 @@
     <header>
         <img src="img/logo.png" width="130">
         <div class="header_b">
-            <p>Как это работает</p>
-            <p>Рецепты</p>
-            <p>Отзывы</p>
-            <p>Цены</p>
-            <p class="orange">Попробовать</p>
+            <p><a href="#howItWorks">Как это работает</a></p>
+            <p><a href="#reciepes">Рецепты</a></p>
+            <p><a href="#reviews">Отзывы</a></p>
+            <p><a href="#price">Цены</a></p>
+            <p class="orange"><a href="#try">Попробовать</a></p>
         </div>
     </header>
     <main>
@@ -56,7 +56,7 @@
             <img src="img/usa-today.png" class="source_img" style="width: 180px;">
         </div>
     </section>
-    <section class="how_it_works">
+    <section class="how_it_works" id="howItWorks">
         <div class="how_head">
             <h3>Как это работает</h3>
             <p>Ваша ежедневная доза здоровья в 3 простых шага</p>
@@ -105,7 +105,7 @@
             </div>
         </div>
     </section>
-    <section class="ai">
+    <section class="ai" id="reciepes">
         <div class="ai_head">
             <h3>ПРИЕМ ПИЩИ</h3>
             <h2>Система Omnifood AI выбирает из более чем 5000
@@ -141,6 +141,20 @@
                     </div>
                 </div>
             </div>
+            <div class="ai_menu_position">
+                <img src="img/pelmeni.webp" class="menu_img">
+                <div class="menu_content">
+                    <div class="menu_tags">
+                        <span class="lgreen">С мясом</span>
+                    </div>
+                    <h3 class="menu_name">Пельмени</h3>
+                    <div class="menu_stats">
+                        <div class="stats_item cals">1000 <span>калорий</span></div>
+                        <div class="stats_item score"><span>NutriScore</span> 99.9</div>
+                        <div class="stats_item rating">5.0 <span>рейтинг (600)</span></div>
+                    </div>
+                </div>
+            </div>
             <div class="ai_slogan">
                 <h3>Подходит для любой диеты</h3>
                 <ul>
@@ -157,7 +171,7 @@
             </div>
     </section>
     <p class="all_reciepes">Посмотреть все рецепты →</p>
-    <section class="reviews">
+    <section class="reviews" id="reviews">
         <div class="reviews_left">
             <h3>Отзывы</h3>
             <h2>Попробовав однажды, вы уже не
@@ -214,7 +228,7 @@
             <img src="img/review12.jpg" class="menu_item">
         </div>
     </section>
-    <section class="price_section">
+    <section class="price_section" id="price">
         <div class="price_head">
             <h3>Цены</h3>
             <h2>Питаться хорошо, не разоряясь</h2>
@@ -291,11 +305,79 @@
             </div>
         </div>
     </section>
-    <section class="form_block">
-        <div class="form_text">
-            <h2></h2>
+    <section class="form_section" id="try">
+        <div class="form_block">
+            <div class="form_text">
+                <h2>Получите первый обед
+                    бесплатно!</h2>
+                <p>Здоровые, вкусные и простые в приготовлении блюда ждут вас.
+                    Начните питаться правильно уже сегодня. Вы можете отменить или
+                    приостановить подписку в любое время. А первый обед за наш счет!</p>
+                <div class="forms">
+                    <div class="form_div">
+                        <p>Ваше имя</p>
+                        <input type="text">
+                    </div>
+                    <div class="form_div">
+                        <p>Ваша почта</p>
+                        <input type="text">
+                    </div>
+                    <div class="form_div">
+                        <p>Откуда вы получили информацию о нас?</p>
+                        <input type="text">
+                    </div>
+                    <button class="form_button">Отправить</button>
+                </div>
+            </div>
+            <div class="form_img_block">
+                <img src="img/form_img.jpg" class="form_img">
+            </div>
         </div>
     </section>
+    <footer>
+        <div class="footer_content">
+            <div class="footer_column">
+                <img src="img/logo.png" width="130">
+                <div class="img_box">
+                    <img src="img/Item.png">
+                    <img src="img/Item_1.png">
+                    <img src="img/Item_2.png">
+                </div>
+                <p>Авторские права © 2027 ООО
+                    "Омнифуд". Все права
+                    защищены.</p>
+            </div>
+            <div class="footer_column">
+                <h3>Связаться с нами</h3>
+                <p>ул. Примерная, д. 123, 2
+                    этаж, Москва, 123456</p>
+                <p>+7 (495) 123-45-67<br>hello@omnifood.com</p>
+            </div>
+            <div class="footer_column">
+                <h3>Аккаунт</h3>
+                <p>Создать аккаунт</p>
+                <p>Войти</p>
+                <p>Приложение IOS</p>
+                <p>Приложение Android</p>
+            </div>
+            <div class="footer_column">
+                <h3>Компания</h3>
+                <p>О нас</p>
+                <p>Для бизнеса</p>
+                <p>Наши поставщики</p>
+                <p>Карьера</p>
+            </div>
+            <div class="footer_column">
+                <h3>Ресурсы</h3>
+                <p>Сборник рецептов</p>
+                <p>Служба поддержки</p>
+                <p>Политика
+                    конфиденциальности
+                    и условия
+                    использования</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
