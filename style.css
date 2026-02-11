@@ -483,11 +483,16 @@ section.ai {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: rgba(253, 242, 233, 1);
+    padding: 20px;
+
 }
 
 .reviews_left {
     display: flex;
     flex-direction: column;
+    width: 1000px;
+    justify-content: center;
 }
 
 .reviews_left h3 {
@@ -507,23 +512,26 @@ section.ai {
     font-family: Rubik;
     font-weight: 700;
     font-style: Bold;
-    font-size: 30px;
+    font-size: 40px;
     leading-trim: NONE;
     line-height: 52.8px;
     letter-spacing: -0.5px;
     vertical-align: middle;
     color: rgba(51, 51, 51, 1);
+    margin: 0px;
 }
 
 .review_row {
     display: flex;
     flex-direction: row;
-    column-gap: 20px;
+    margin-bottom: 40px;
+    column-gap: 90px;
 }
 
 .review {
     display: flex;
     flex-direction: column;
+    width: 392px;
 }
 
 .review_text {
@@ -535,5 +543,278 @@ section.ai {
     line-height: 32.4px;
     letter-spacing: 0%;
     vertical-align: middle;
+    color: rgba(85, 85, 85, 1);
 
+}
+
+.review_author {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 16px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(111, 111, 111, 1);
+
+}
+
+.review_img {
+    width: 64px;
+    height: 64px;
+    angle: 0 deg;
+    opacity: 1;
+    border-radius: 32px;
+
+}
+
+.reviews_right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.menu_item {
+    width: 240px;
+    height: 240px;
+    opacity: 1;
+}
+
+.price_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    row-gap: 50px;
+}
+
+.price_head h3 {
+    color: rgba(207, 113, 31, 1);
+    font-family: Rubik;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 16px;
+    letter-spacing: 0.75px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    width: 1100px;
+}
+
+.price_head h2 {
+    color: rgba(51, 51, 51, 1);
+    font-family: Rubik;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 44px;
+    leading-trim: NONE;
+    line-height: 52.8px;
+    letter-spacing: -0.5px;
+    vertical-align: middle;
+    margin-bottom: 50px;
+}
+
+.price_row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+.price {
+    angle: 0 deg;
+    opacity: 1;
+    gap: 18px;
+    padding: 30px;
+    border-radius: 11px;
+    border-width: 2px;
+    border: 2px solid rgba(253, 242, 233, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price h3 {
+    color: rgba(207, 113, 31, 1);
+    font-family: Rubik;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+}
+
+.price h2 {
+    color: rgba(51, 51, 51, 1);
+    font-family: Rubik;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 62px;
+    leading-trim: NONE;
+    line-height: 62px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.price h2 span {
+    font-family: Rubik;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 30px;
+    leading-trim: NONE;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.price p {
+    color: rgba(111, 111, 111, 1);
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 25.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    width: 250px;
+}
+
+.price ul li {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(85, 85, 85, 1);
+    list-style-type: none;
+}
+
+.price ul li::before {
+    content: url(img/check.png);
+    margin-right: 10px;
+    bottom: -10px;
+    position: relative;
+}
+
+.price button {
+    width: 320px;
+    height: 72;
+    angle: 0 deg;
+    opacity: 1;
+    padding-top: 16px;
+    padding-right: 53.52px;
+    padding-bottom: 16px;
+    padding-left: 53.5px;
+    border-radius: 9px;
+    background: rgba(230, 126, 34, 1);
+    font-family: Rubik;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+.price ul li.cross::before {
+    content: url(img/cross.png);
+
+}
+
+.price.orange {
+    background: rgba(253, 242, 233, 1);
+    overflow: hidden;
+}
+
+.price.orange::after {
+    content: "Best Value";
+    width: 245.30999877958848;
+    height: 30.0000058300803;
+    rotate: 45deg;
+    opacity: 1;
+    padding-top: 7.01px;
+    padding-right: 80px;
+    padding-bottom: 7.99px;
+    padding-left: 80px;
+    background: rgba(255, 212, 59, 1);
+    position: relative;
+    right: -170px;
+    top: -94%;
+    color: rgba(51, 51, 51, 1);
+    font-family: Rubik;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 14px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.price_section p {
+    color: rgba(85, 85, 85, 1);
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 25.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.price_comments {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.price_comment {
+    width: 250px;
+}
+
+.price_comment h2 {
+    color: rgba(51, 51, 51, 1);
+    font-family: Rubik;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+
+.price_comment p {
+    color: rgba(85, 85, 85, 1);
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 32.4px;
+    letter-spacing: 0%;
+    text-align: left;
 }
