@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -5,42 +13,50 @@ header {
     align-items: center;
     padding: 0px 20px 0px 20px;
 }
+
 .header_b {
     display: flex;
     flex-direction: row;
     gap: 48px;
 }
+
 .header_b p {
     font-family: rubik;
     font-weight: 500;
     font-size: 15px;
     padding: 10px 15px 10px 15px;
 }
-p.orange {
+
+.orange {
     border-radius: 5px;
     background-color: #E67E22;
     color: white;
 }
+
 main {
     background-color: #FDF2E9;
     display: flex;
     justify-content: center;
 }
+
 main div {
     width: 566px;
     margin-top: 60px;
 }
-div.main_left {
+
+.main_left {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 60px;
 }
+
 main div h1 {
     font-family: rubik;
     font-weight: 700;
     font-size: 40px;
 }
+
 main div p {
     font-family: rubik;
     font-weight: 400;
@@ -49,18 +65,21 @@ main div p {
     color: #555555;
     height: 50px;
 }
-div.buttons {
+
+.buttons {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
-div.orange.button {
+
+.orange.button {
     background-color: #E67E22;
     color: white;
     padding: 15px 5px 15px 5px;
     width: 300px;
 }
-div.button {
+
+.button {
     width: 120px;
     padding: 15px 20px 15px 20px;
     border-radius: 9px;
@@ -70,33 +89,39 @@ div.button {
     font-size: 16px;
     text-align: center;
 }
+
 .delivery_block {
- display: flex;
-  align-items: center;
-  gap: 1.6rem;
-  margin-top: 8rem;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-top: 8rem;
+    justify-content: center;
 }
+
 .photos_block {
     display: flex;
     position: absolute;
     margin-bottom: 140px;
 }
+
 .customer {
-  height: 2.8rem;
-  width: 2.8rem;
-  border-radius: 50%;
-  margin-right: -1.6rem;
-  border: 3px solid #fdf2e9;
+    height: 2.8rem;
+    width: 2.8rem;
+    border-radius: 50%;
+    margin-right: -1.6rem;
+    border: 3px solid #fdf2e9;
 }
+
 .customer:hover {
     height: 3.3rem;
     width: 3.3rem;
     transition: 150ms;
 }
+
 .customer:last-child {
     margin: 0;
 }
+
 .delivered-text {
     font-size: 15px;
     font-weight: 600;
@@ -105,16 +130,19 @@ div.button {
     margin-left: 100px;
     margin-bottom: 70px;
 }
+
 .delivered-text span {
-  color: #cf711f;
-  font-weight: 700;
+    color: #cf711f;
+    font-weight: 700;
 }
+
 section.sources {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 25px;
 }
+
 section.sources h2 {
     text-transform: uppercase;
     font-family: rubik;
@@ -123,13 +151,15 @@ section.sources h2 {
     color: #555555;
     letter-spacing: 0.75px;
 }
+
 .source_img {
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 60px;
     padding: 0px 25px;
     opacity: 70%;
     margin-top: 25px;
 }
+
 section.how_it_works {
     display: flex;
     justify-content: center;
@@ -137,12 +167,14 @@ section.how_it_works {
     align-items: center;
     margin-top: 70px;
 }
-div.how_head {
+
+.how_head {
     display: flex;
     flex-direction: column;
     width: 1100px;
 }
-div.how_head h3 {
+
+.how_head h3 {
     text-transform: uppercase;
     color: #CF711F;
     font-family: rubik;
@@ -150,29 +182,34 @@ div.how_head h3 {
     font-size: 16px;
     letter-spacing: 0.75px;
 }
-div.how_head p {
+
+.how_head p {
     font-family: rubik;
     font-weight: 700;
     font-style: bold;
     font-size: 30px;
     letter-spacing: -0.5px;
 }
-div.steps {
+
+.steps {
     display: flex;
     flex-direction: column;
 }
-div.step {
+
+.step {
     display: flex;
     flex-direction: row;
-    margin-top: 40px;
+    margin-top: 20px;
 }
-div.text {
+
+.text {
     display: flex;
     flex-direction: column;
     width: 500px;
     margin-right: 200px;
 }
-div.text h2 {
+
+.text h2 {
     font-family: rubik;
     font-weight: 600;
     font-size: 60px;
@@ -180,14 +217,16 @@ div.text h2 {
     color: #DDDDDD;
     margin: 0;
 }
-div.text h3 {
+
+.text h3 {
     font-family: rubik;
     font-weight: 700;
     font-size: 30px;
     letter-spacing: -0.5px;
     margin: 0;
 }
-div.text p {
+
+.text p {
     font-family: rubik;
     font-weight: 400;
     font-size: 16px;
@@ -195,12 +234,15 @@ div.text p {
     line-height: 30px;
     color: #555555;
 }
-div.step.reverse {
-    flex-direction:row-reverse;
+
+.step.reverse {
+    flex-direction: row-reverse;
 }
-div.step.reverse div.text {
+
+.step.reverse .text {
     margin-left: 120px;
 }
+
 .phone_img::before,
 .phone_img::after {
     content: "";
@@ -226,4 +268,272 @@ div.step.reverse div.text {
     position: relative;
     top: -150px;
     left: 70px;
+}
+
+section.ai {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    gap: 100px;
+}
+
+.ai_head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1100px;
+}
+
+.ai_head h3 {
+    text-transform: uppercase;
+    color: #CF711F;
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.75px;
+}
+
+.ai_head h2 {
+    font-family: rubik;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 40px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.ai_menu {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.ai_menu_position {
+    width: 300px;
+    box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.075);
+    border-radius: 11px;
+    padding: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.menu_img {
+    width: 100%;
+}
+
+.menu_content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.menu_tags {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+
+.menu_tags span {
+    font-family: Rubik;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    width: 240;
+    height: 20;
+    angle: 0 deg;
+    opacity: 1;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    border-radius: 100px;
+    background: rgba(81, 207, 102, 1);
+}
+
+.menu_name {
+    font-family: Rubik;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(51, 51, 51, 1);
+}
+
+.menu_stats {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stats_item {
+    font-family: Rubik;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 15px;
+    leading-trim: NONE;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(85, 85, 85, 1);
+
+}
+
+.stats_item span {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.stats_item.cals::before {
+    content: url(img/flame.png);
+    margin-right: 10px;
+}
+
+.stats_item.score::before {
+    content: url(img/restaurant.png);
+    margin-right: 10px;
+}
+
+.stats_item.rating::before {
+    content: url(img/star.png);
+    margin-right: 10px;
+}
+
+.menu_tags .lgreen {
+    background: rgba(148, 216, 45, 1);
+}
+
+.menu_tags .yellow {
+    background: rgba(255, 212, 59, 1);
+
+}
+
+.ai_slogan {
+    padding: 0px;
+}
+
+.ai_slogan ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ai_slogan ul li {
+    list-style-type: none;
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(85, 85, 85, 1);
+}
+
+.ai_slogan ul li::before {
+    content: url(img/check.png);
+    position: relative;
+    top: 9px;
+    left: -20px;
+}
+
+.ai_slogan h3 {
+    font-family: Rubik;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    letter-spacing: -0.5px;
+    color: rgba(51, 51, 51, 1);
+    margin-top: 0px;
+}
+
+.all_reciepes {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(230, 126, 34, 1);
+    margin-top: 40px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.reviews_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews_left h3 {
+    font-family: Rubik;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 16px;
+    letter-spacing: 0.75px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: rgba(207, 113, 31, 1);
+}
+
+.reviews_left h2 {
+    font-family: Rubik;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    leading-trim: NONE;
+    line-height: 52.8px;
+    letter-spacing: -0.5px;
+    vertical-align: middle;
+    color: rgba(51, 51, 51, 1);
+}
+
+.review_row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+}
+
+.review_text {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 32.4px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
 }
