@@ -1,0 +1,214 @@
+.ai {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    gap: 100px;
+}
+
+.ai_head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1100px;
+}
+
+.ai_head h3 {
+    text-transform: uppercase;
+    color: #CF711F;
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.75px;
+}
+
+.ai_head h2 {
+    font-family: rubik;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 40px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.ai_menu {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.ai_menu_position {
+    width: 300px;
+    box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.075);
+    border-radius: 11px;
+    padding: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.ai_menu_position:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+.menu_img {
+    width: 100%;
+    height: 200px;
+}
+
+.menu_content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.menu_tags {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+
+.menu_tags span {
+    font-family: Rubik;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    width: 240;
+    height: 20;
+    angle: 0 deg;
+    opacity: 1;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    border-radius: 100px;
+    background: rgba(81, 207, 102, 1);
+}
+
+.menu_name {
+    font-family: Rubik;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(51, 51, 51, 1);
+}
+
+.menu_stats {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stats_item {
+    font-family: Rubik;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 15px;
+    leading-trim: NONE;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(85, 85, 85, 1);
+
+}
+
+.stats_item span {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.stats_item.cals::before {
+    content: url(/flame.png);
+    margin-right: 10px;
+}
+
+.stats_item.score::before {
+    content: url(/restaurant.png);
+    margin-right: 10px;
+}
+
+.stats_item.rating::before {
+    content: url(/star.png);
+    margin-right: 10px;
+}
+
+.menu_tags .lgreen {
+    background: rgba(148, 216, 45, 1);
+}
+
+.menu_tags .yellow {
+    background: rgba(255, 212, 59, 1);
+
+}
+
+.ai_slogan {
+    padding: 0px;
+}
+
+.ai_slogan ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ai_slogan ul li {
+    list-style-type: none;
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(85, 85, 85, 1);
+}
+
+.ai_slogan ul li::before {
+    content: url(/check.png);
+    position: relative;
+    top: 9px;
+    left: -20px;
+}
+
+.ai_slogan h3 {
+    font-family: Rubik;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    letter-spacing: -0.5px;
+    color: rgba(51, 51, 51, 1);
+    margin-top: 0px;
+}
+
+.all_reciepes {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(230, 126, 34, 1);
+    margin-top: 40px;
+    text-decoration: underline;
+}

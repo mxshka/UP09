@@ -1,6 +1,7 @@
 div.step {
     display: flex;
     margin-top: 20px;
+    column-gap: 50px;
 }
 div.text {
     display: flex;
