@@ -1,0 +1,31 @@
+export default function Hero(){
+    return (
+        <main>
+            <div class="main_left">
+                <h1>Здоровая еда доставляется к вашей двери каждый день</h1>
+                <p>Умная подписка на еду 365 дней в году, которая заставит вас снова питаться здорово. Подстраивается под ваши
+                    вкусы и потребности в питании.</p>
+                <div class="buttons">
+                    <div class="orange button">Начать правильно питаться</div>
+                    <div class="button">Подробнее &darr;</div>
+                </div>
+                <div class="delivery_block">
+                    <div class="photos_block">
+                        <img src="customer-1.jpg" class="customer" />
+                        <img src="customer-2.jpg" class="customer" />
+                        <img src="customer-3.jpg" class="customer" />
+                            <img src="customer-4.jpg" class="customer" />
+                                <img src="customer-5.jpg" class="customer" />
+                                    <img src="customer-6.jpg" class="customer" />
+                                    </div>
+                                    <p class="delivered-text">
+                                        <span>250,000+</span> доставок в прошлом году!
+                                    </p>
+                                </div>
+                </div>
+                            <div class="food">
+                                <img src="food.png" width="566px" />
+                            </div>
+                        </main>
+                        )
+}

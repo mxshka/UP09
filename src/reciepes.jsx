@@ -1,0 +1,70 @@
+export default function Reciepes(){
+    return(
+         <section class="ai" id="reciepes">
+        <div class="ai_head">
+            <h3>ПРИЕМ ПИЩИ</h3>
+            <h2>Система Omnifood AI выбирает из более чем 5000
+                рецептов</h2>
+        </div>
+        <div class="ai_menu">
+            <div class="ai_menu_position">
+                <img src="menu1.jpg" class="menu_img" />
+                <div class="menu_content">
+                    <div class="menu_tags">
+                        <span>Вегетерианское</span>
+                    </div>
+                    <h3 class="menu_name">Японские Гёдза</h3>
+                    <div class="menu_stats">
+                        <div class="stats_item cals">650 <span>калорий</span></div>
+                        <div class="stats_item score"><span>NutriScore</span> 74</div>
+                        <div class="stats_item rating">4.9 <span>рейтинг (537)</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ai_menu_position">
+                <img src="menu2.jpg" class="menu_img" />
+                <div class="menu_content">
+                    <div class="menu_tags">
+                        <span class="lgreen">Веганское</span>
+                        <span class="yellow">Палео</span>
+                    </div>
+                    <h3 class="menu_name">Салат с авокадо</h3>
+                    <div class="menu_stats">
+                        <div class="stats_item cals">400 <span>калорий</span></div>
+                        <div class="stats_item score"><span>NutriScore</span> 92</div>
+                        <div class="stats_item rating">4.8 <span>рейтинг (441)</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ai_menu_position">
+                <img src="pelmeni.webp" class="menu_img" />
+                <div class="menu_content">
+                    <div class="menu_tags">
+                        <span class="lgreen">С мясом</span>
+                    </div>
+                    <h3 class="menu_name">Пельмени</h3>
+                    <div class="menu_stats">
+                        <div class="stats_item cals">1000 <span>калорий</span></div>
+                        <div class="stats_item score"><span>NutriScore</span> 99.9</div>
+                        <div class="stats_item rating">5.0 <span>рейтинг (600)</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ai_slogan">
+                <h3>Подходит для любой диеты</h3>
+                <ul>
+                    <li>Вегетерианская</li>
+                    <li>Веганская</li>
+                    <li>Пескетарианская</li>
+                    <li>Без глютена</li>
+                    <li>Без лактозы</li>
+                    <li>Кето</li>
+                    <li>Палео</li>
+                    <li>Низкий FODMAP</li>
+                    <li>Для детей</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    )
+}

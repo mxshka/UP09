@@ -1,0 +1,61 @@
+export default function Reviews(){
+    return (
+        <section class="reviews" id="reviews">
+        <div class="reviews_left">
+            <h3>Отзывы</h3>
+            <h2>Попробовав однажды, вы уже не
+                сможете вернуться к прежнему</h2>
+            <div class="review_row">
+                <div class="review">
+                    <img src="author1.jpg" class="review_img" />
+                    <p class="review_text">Недорогие, полезные и очень вкусные
+                        блюда, даже без необходимости заказывать
+                        вручную! Это просто волшебно!</p>
+                    <p class="review_author">— Dave Bryson</p>
+                </div>
+                <div class="review">
+                    <img src="author2.jpg" class="review_img" />
+                    <p class="review_text">Алгоритм искусственного интеллекта
+                        просто потрясающий, он каждый раз
+                        выбирает для меня правильные блюда.
+                        Удивительно, что больше не нужно
+                        беспокоиться о еде!</p>
+                    <p class="review_author">— Ben Hadley</p>
+                </div>
+            </div>
+            <div class="review_row">
+                <div class="review">
+                    <img src="author3.jpg" class="review_img" />
+                    <p class="review_text">Omnifood — просто спасение! Я только что
+                        открыла компанию, поэтому у меня совсем
+                        нет времени на готовку. Теперь я не могу
+                        жить без ежедневного питания!</p>
+                    <p class="review_author">— Steve Miller</p>
+                </div>
+                <div class="review">
+                    <img src="author4.jpg" class="review_img" />
+                    <p class="review_text">Я купила продукты Omnifood для всей
+                        семьи, и это сэкономило мне столько
+                        времени! К тому же, все продукты
+                        органические, веганские и без пластика.</p>
+                    <p class="review_author">— Hannah Smith</p>
+                </div>
+            </div>
+        </div>
+        <div class="reviews_right">
+            <img src="review1.jpg" class="menu_item" />
+            <img src="review2.jpg" class="menu_item" />
+            <img src="review3.jpg" class="menu_item" />
+            <img src="review4.jpg" class="menu_item" />
+            <img src="review5.jpg" class="menu_item" />
+            <img src="review6.jpg" class="menu_item" />
+            <img src="review7.jpg" class="menu_item" />
+            <img src="review8.jpg" class="menu_item" />
+            <img src="review9.jpg" class="menu_item" />
+            <img src="review10.jpg" class="menu_item" />
+            <img src="review11.jpg" class="menu_item" />
+            <img src="review12.jpg" class="menu_item" />
+        </div>
+    </section>
+    )
+}
