@@ -1,22 +1,10 @@
 ## Учебная практика
 ### Полезные ссылки:
-<style>
-    body {
-      margin: 0
-    }
-    table {
-      border-collapse: collapse;
-      background-color: rgba(128, 128, 128, 0.123);
-    }
-    td, th {
-      border: 1px black solid;
-      padding: 13px;
-    }
-  </style>
 * <a href="https://github.com/mxshka/UP09/tree/Angular">Проект на Angular</a>
 * <a href="https://github.com/mxshka/UP09/tree/react">Проект на React</a>
 * <a href="https://github.com/mxshka/UP09/tree/vue">Проект на Vue</a>
 
+## Отчет о производительности до оптимизации
 <div style="display: flex; justify-content:center;">
     <table>
       <tr>
