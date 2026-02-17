@@ -416,17 +416,17 @@ main div p {
 }
 
 .stats_item.cals::before {
-    content: url(img/flame.png);
+    content: url(img/flame.webp);
     margin-right: 10px;
 }
 
 .stats_item.score::before {
-    content: url(img/restaurant.png);
+    content: url(img/restaurant.webp);
     margin-right: 10px;
 }
 
 .stats_item.rating::before {
-    content: url(img/star.png);
+    content: url(img/star.webp);
     margin-right: 10px;
 }
 
@@ -463,7 +463,7 @@ main div p {
 }
 
 .ai_slogan ul li::before {
-    content: url(img/check.png);
+    content: url(img/check.webp);
     position: relative;
     top: 9px;
     left: -20px;
@@ -724,7 +724,7 @@ margin-top: 100px;
 }
 
 .price ul li::before {
-    content: url(img/check.png);
+    content: url(img/check.webp);
     margin-right: 10px;
     bottom: -10px;
     position: relative;
@@ -755,7 +755,7 @@ margin-top: 100px;
 }
 
 .price ul li.cross::before {
-    content: url(img/cross.png);
+    content: url(img/cross.webp);
 
 }
 
