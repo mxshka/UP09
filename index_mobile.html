@@ -11,15 +11,24 @@
 
 <body>
     <header>
-        <img alt="logo" src="img/logo.webp" width="130" loading="lazy">
-        <div class="header_b">
-            <p><a href="#howItWorks">Как это работает</a></p>
-            <p><a href="#reciepes">Рецепты</a></p>
-            <p><a href="#reviews">Отзывы</a></p>
-            <p><a href="#price">Цены</a></p>
-            <p class="orange"><a href="#try">Попробовать</a></p>
-        </div>
-    </header>
+    <img alt="logo" src="img/logo.webp" width="130" loading="lazy">
+    
+    <!-- Добавьте эти элементы -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+    
+    <div class="header_b">
+        <p><a href="#howItWorks">Как это работает</a></p>
+        <p><a href="#reciepes">Рецепты</a></p>
+        <p><a href="#reviews">Отзывы</a></p>
+        <p><a href="#price">Цены</a></p>
+        <p class="orange"><a href="#try">Попробовать</a></p>
+    </div>
+</header>
     <main>
         <div class="main_left">
             <h1>Здоровая еда доставляется к вашей двери каждый день</h1>
@@ -44,7 +53,7 @@
             </div>
         </div>
         <div class="food">
-            <img alt="food" src="img/food.webp" width="566" loading="lazy">
+            <img alt="food" src="img/food.webp" class="food_img" loading="lazy">
         </div>
     </main>
     <section class="sources">
@@ -328,15 +337,15 @@
                 <div class="forms">
                     <div class="form_div">
                         <p>Ваше имя</p>
-                        <input type="text" placeholder="Иван Иванов">
+                        <input type="text">
                     </div>
                     <div class="form_div">
                         <p>Ваша почта</p>
-                        <input type="email" placeholder="example@mail.com">
+                        <input type="email">
                     </div>
                     <div class="form_div">
                         <p>Откуда вы получили информацию о нас?</p>
-                        <input type="text" placeholder="Интернет">
+                        <input type="text">
                     </div>
                     <button class="form_button">Отправить</button>
                 </div>
