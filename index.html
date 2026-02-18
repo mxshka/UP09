@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-    <link rel="stylesheet" href="styleMin.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Омнифуд - служба доставки свежей еды, работающая по всей России">
@@ -11,15 +11,24 @@
 
 <body>
     <header>
-        <img alt="logo" src="img/logo.webp" width="130">
-        <div class="header_b">
-            <p><a href="#howItWorks">Как это работает</a></p>
-            <p><a href="#reciepes">Рецепты</a></p>
-            <p><a href="#reviews">Отзывы</a></p>
-            <p><a href="#price">Цены</a></p>
-            <p class="orange"><a href="#try">Попробовать</a></p>
-        </div>
-    </header>
+    <img alt="logo" src="img/logo.webp" width="130" loading="lazy">
+    
+    <!-- Добавьте эти элементы -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+    
+    <div class="header_b">
+        <p><a href="#howItWorks">Как это работает</a></p>
+        <p><a href="#reciepes">Рецепты</a></p>
+        <p><a href="#reviews">Отзывы</a></p>
+        <p><a href="#price">Цены</a></p>
+        <p class="orange"><a href="#try">Попробовать</a></p>
+    </div>
+</header>
     <main>
         <div class="main_left">
             <h1>Здоровая еда доставляется к вашей двери каждый день</h1>
@@ -31,12 +40,12 @@
             </div>
             <div class="delivery_block">
                 <div class="photos_block">
-                    <img alt="customer1" src="img/customer-1.webp" class="customer">
-                    <img alt="customer2" src="img/customer-2.webp" class="customer">
-                    <img alt="customer3" src="img/customer-3.webp" class="customer">
-                    <img alt="customer4" src="img/customer-4.webp" class="customer">
-                    <img alt="customer5" src="img/customer-5.webp" class="customer">
-                    <img alt="customer6" src="img/customer-6.webp" class="customer">
+                    <img alt="customer1" src="img/customer-1.webp" class="customer" loading="lazy">
+                    <img alt="customer2" src="img/customer-2.webp" class="customer" loading="lazy">
+                    <img alt="customer3" src="img/customer-3.webp" class="customer" loading="lazy">
+                    <img alt="customer4" src="img/customer-4.webp" class="customer" loading="lazy">
+                    <img alt="customer5" src="img/customer-5.webp" class="customer" loading="lazy">
+                    <img alt="customer6" src="img/customer-6.webp" class="customer" loading="lazy">
                 </div>
                 <p class="delivered-text">
                     <span>250,000+</span> доставок в прошлом году!
@@ -44,19 +53,19 @@
             </div>
         </div>
         <div class="food">
-            <img alt="food" src="img/food.webp" width="566px">
+            <img alt="food" src="img/food.webp" class="food_img" loading="lazy">
         </div>
     </main>
     <section class="sources">
         <h2>Нас упоминают</h2>
         <div class="sources_imgs">
-            <img alt="source_img" loading="lazy" src="img/business-insider.webp" class="source_img"
+            <img alt="business insider" loading="lazy" src="img/business-insider.webp" class="source_img"
                 style="width: 150px;">
-            <img alt="source_img" loading="lazy" src="img/forbes.webp" class="source_img" style="width: 150px;">
-            <img alt="source_img" loading="lazy" src="img/techcrunch.webp" class="source_img" style="width: 250px;">
-            <img alt="source_img" loading="lazy" src="img/the-new-york-times.webp" class="source_img"
+            <img alt="forbes" loading="lazy" src="img/forbes.webp" class="source_img" style="width: 150px;">
+            <img alt="techcrunch" loading="lazy" src="img/techcrunch.webp" class="source_img" style="width: 250px;">
+            <img alt="new york times" loading="lazy" src="img/the-new-york-times.webp" class="source_img"
                 style="width: 250px;">
-            <img alt="source_img" loading="lazy" src="img/usa-today.webp" class="source_img" style="width: 180px;">
+            <img alt="usa today" loading="lazy" src="img/usa-today.webp" class="source_img" style="width: 180px;">
         </div>
     </section>
     <section class="how_it_works" id="howItWorks">
@@ -76,7 +85,7 @@
                         витамины, независимо от вашей диеты!</p>
                 </div>
                 <div class="phone_img">
-                    <img alt="app-screen-1" loading="lazy" src="img/app-screen-1.webp" width="150px">
+                    <img alt="app-screen-1" loading="lazy" src="img/app-screen-1.webp" width="150">
                 </div>
             </div>
             <div class="step reverse">
@@ -90,7 +99,7 @@
                         собственные рецепты.</p>
                 </div>
                 <div class="phone_img">
-                    <img alt="app-screen-2" loading="lazy" src="img/app-screen-2.webp" width="150px">
+                    <img alt="app-screen-2" loading="lazy" src="img/app-screen-2.webp" width="150">
                 </div>
             </div>
             <div class="step">
@@ -103,7 +112,7 @@
                         график и адрес доставки!</p>
                 </div>
                 <div class="phone_img">
-                    <img alt="app-screen-3" loading="lazy" src="img/app-screen-3.webp" width="150px">
+                    <img alt="app-screen-3" loading="lazy" src="img/app-screen-3.webp" width="150">
                 </div>
             </div>
         </div>
@@ -283,7 +292,7 @@
                     праздники.</p>
             </div>
             <div class="price_comment">
-                <img alt="" loading="lazy" src="img/apple.webp">
+                <img alt="" loading="lazy" src="img/apple.webp" width="55">
                 <h2>Местные и
                     органические
                     продукты</h2>
@@ -306,7 +315,7 @@
                     для упаковки ваших блюд.</p>
             </div>
             <div class="price_comment">
-                <img alt="" loading="lazy" src="img/pause.webp">
+                <img alt="" loading="lazy" src="img/pause.webp" width="55">
                 <h2>Приостановить в
                     любое время</h2>
                 <p>Собираетесь в отпуск?
@@ -332,7 +341,7 @@
                     </div>
                     <div class="form_div">
                         <p>Ваша почта</p>
-                        <input type="text">
+                        <input type="email">
                     </div>
                     <div class="form_div">
                         <p>Откуда вы получили информацию о нас?</p>
@@ -351,9 +360,9 @@
             <div class="footer_column">
                 <img alt="" loading="lazy" src="img/logo.webp" width="130">
                 <div class="img_box">
-                    <img alt="" loading="lazy" src="img/Item.webp">
-                    <img alt="" loading="lazy" src="img/Item_1.webp">
-                    <img alt="" loading="lazy" src="img/Item_2.webp">
+                    <img alt="" loading="lazy" src="img/Item.webp" width="24">
+                    <img alt="" loading="lazy" src="img/Item_1.webp" width="24">
+                    <img alt="" loading="lazy" src="img/Item_2.webp" width="24">
                 </div>
                 <p>Авторские права © 2027 ООО
                     "Омнифуд". Все права
