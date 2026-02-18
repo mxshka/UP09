@@ -171,8 +171,9 @@
   .food {
       text-align: center;
   }
+
   .food_img {
-    width: 50rem;
+      width: 50rem;
   }
 
   .sources {
@@ -995,10 +996,11 @@
       .reviews_right {
           grid-template-columns: repeat(2, 1fr);
       }
+
       .form_text {
           padding: 2rem 1.5rem;
       }
-      
+
   }
 
   @media (max-width: 320px) {
@@ -1062,12 +1064,14 @@
       .how_head p {
           font-size: 1.5rem;
       }
-            .step,
+
+      .step,
       .step.reverse {
           flex-direction: column;
           text-align: center;
           gap: 0;
       }
+
       .text h3 {
           font-size: 1.5rem;
       }
