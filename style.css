@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
   * {
       box-sizing: border-box;
@@ -982,9 +982,6 @@
           grid-template-columns: 1fr;
       }
 
-      .form_img {
-          display: none;
-      }
 
       .form_block {
           justify-content: center;
@@ -993,6 +990,7 @@
 
 
   @media (max-width: 768px) {
+
       .reviews_right {
           grid-template-columns: repeat(2, 1fr);
       }
@@ -1151,6 +1149,16 @@
       .form_text h2 {
           font-size: 2rem;
       }
+
+      .form_img_block {
+          order: -1;
+      }
+
+      .form_img {
+          max-width: 23rem;
+          overflow-y: hidden;
+          height: 30rem;
+      }
   }
 
   .menu-toggle {
@@ -1182,7 +1190,7 @@
 
       .menu-icon {
           display: flex;
-          position: fixed;
+          position: relative;
           right: 1.25rem;
           top: 1.5rem;
           transform: translateY(-50%);
