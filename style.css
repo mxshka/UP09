@@ -246,11 +246,11 @@
   .step {
       display: flex;
       flex-direction: row;
-      margin-top: 1.25rem;
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
       gap: 10rem;
+      margin-top: 5rem;
   }
 
   .text {
@@ -333,7 +333,7 @@
       justify-content: center;
       flex-direction: column;
       align-items: center;
-      margin-top: 0;
+      margin-top: 3rem;
       gap: 3rem;
       padding: 0 1.25rem;
   }
@@ -1070,6 +1070,7 @@
           flex-direction: column;
           text-align: center;
           gap: 0;
+          margin-top: 0;
       }
 
       .text h3 {
